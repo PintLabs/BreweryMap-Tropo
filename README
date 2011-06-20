@@ -1,0 +1,81 @@
+This SMS and IM application connects BreweryMap/BreweryDB data through the
+Tropo service using PHP.
+
+To try out this service, send a Jabber IM to brewerymap@tropo.im or send a text
+message to 919-701-BREW (2739).
+
+=========================
+GETTING STARTED
+=========================
+
+1:  ACQUIRE AN API KEY FROM BREWERYDB.COM
+
+    Go to http://www.brewerydb.com/api/ and request a key.  Once you have been
+    granted your key, you need to put your key in the correct location within
+    the BreweryMap-tropo.php file.  This is done by setting the
+    BREWERYDB_APIKEY constant around line 63.
+
+
+2:  ACQUIRE AN API KEY FROM DEVELOPER.YAHOO.COM
+
+    Go to http://developer.yahoo.com and request an API key with access to the
+    geo-location service.  Once you get your key, you need to set the
+    YAHOO_APIKEY constant around line 68.
+
+
+3:  CREATE A HOSTED APPLICATION AT TROPO.COM
+
+    This Tropo app was created as a hosted application.  To get started, go to
+    http://www.tropo.com and signup for a free account.  You can create your own
+    BreweryMap application from your dashboard there.
+
+
+4:  UPLOAD YOUR CODE
+
+    Upload this code, along with your specific API keys, to your tropo
+    application.  You should now be able to run it and get back results!
+
+
+
+=========================
+SUPPORT
+=========================
+
+If you are having issues, please file them in the project at
+http://github.com/pintlabs/brewerymap-tropo
+
+
+
+=========================
+LICENSE
+=========================
+
+This license is governed by United States copyright law, and with respect to
+matters of tort, contract, and other causes of action it is governed by
+North Carolina law, without regard to North Carolina choice of law
+provisions.  The forum for any dispute resolution shall be in Wake County,
+North Carolina.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice,
+   this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. The name of the author may not be used to endorse or promote products
+   derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS;
+OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
